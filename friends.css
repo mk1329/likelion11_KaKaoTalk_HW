@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.top_bar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2px 0px;
+}
+.top_bar section{
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    width: 33%;
+}
+.top_bar div{
+    margin: 0 3px;
+}
+.top_bar section:nth-child(2){
+    justify-content: center;
+}
+.top_bar section:nth-child(3){
+    justify-content: flex-end;
+}
+
+.friends_nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 10px 10px;
+    font-size: 25px;
+    font-weight: bold;
+    align-items: center;
+}
+.friends_nav div:nth-child(1){
+    width: 60%;
+    font-size: 35px;
+}
+
+.sub_bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(243, 243, 243);
+    font-weight: bold;
+}
+.sub_bar .fas{
+    color: gray;
+    align-items: center;
+    padding: 5px;
+}
+
+.myprofile{
+    border: none;
+    display: flex;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    margin: 0 20px;
+    padding: 17px 0px;
+}
+.myprofile img{
+    width: 25%;
+    border-radius: 20px;
+}
+.myprofile div{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.middle_bar{
+    display: flex;
+    border: none;
+    margin: 17px 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.middle_bar div:nth-child(1){
+    margin-right: 275px;
+}
+.middle_bar .fas{
+    text-align: end;
+}
+
+.channel{
+    border: none;
+    display: flex;
+    margin: 35px 20px;
+}
+.channel img{
+    width: 20%;
+    height: 20%;
+    border-radius: 20px;
+}
+#ch{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+    margin-right: 100px;
+}
+.channel div{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 5px;
+}
+
+.main_nav{
+    width: 100%;
+    border: none;
+    border-top: 1px solid rgb(189, 189, 189);
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(243, 243, 243);
+    padding: 17px 0px;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    color: black;
+}
+
+.red_num{
+    border-radius: 20px;
+    width: 25px;
+    background-color: rgb(255, 126, 112);
+    position: absolute;
+    left: 155px;
+    top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    padding: 2px;
+}
+
+.red_dot{
+    border-radius: 20px;
+    width: 1px;
+    background-color: rgb(255, 126, 112);
+    position: absolute;
+    left: 335px;
+    top: 20px;
+    padding: 3px;
+}
